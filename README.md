@@ -14,8 +14,22 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
+#write a program to find the solution to a system of linear equations 5x-3y-10z=-9,2x+2y-3z=4,-3x+y+5z=-1
 
+#prgram to find the solution for the given equation 
+#devoleped by : HOSHINI S
+#registerNumber:2305003006
+
+```python
+import numpy as np
+a=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+b=np.array([-9,4,-1])
+le=np.linalg.solve(a,b)
+print("the solution for the given matrix is",le)
+```
 ## Output:
+![WhatsApp Image 2024-04-12 at 22 16 20](https://github.com/hoshiniii/-SOLUTION-TO-A-SYSTEM-OF-LINEAR-EQUATIONS/assets/166852545/dc4334e9-e0aa-4f94-aeb0-f5e3a68dc3d1)
+
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
 
